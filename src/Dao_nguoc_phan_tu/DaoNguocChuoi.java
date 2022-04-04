@@ -12,6 +12,5 @@ public class DaoNguocChuoi {
         for (int i = mWord.length-1; i >= 0; i--) {
             System.out.print(wStack.push(mWord[i]) + " ");
         }
-
     }
 }
